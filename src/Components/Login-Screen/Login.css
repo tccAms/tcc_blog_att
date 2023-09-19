@@ -1,0 +1,102 @@
+.login-Screen
+{
+	margin: 0;
+	padding: 0;
+	background: #c0d7f7;
+}
+
+h1
+{
+	font-family: 'sans-serif';
+	font-size: 88px;
+	color: #ffffff;
+	color: #000000;
+	font-weight: 800;
+	text-align: center;
+	margin: 0;
+	margin-top: 20%;
+}
+
+form
+{
+	font-family: 'Open Sans', sans-serif;
+	width: 400px;
+	margin: auto;
+}
+
+div.white-box
+{
+	background: white;
+	padding: 4px 0px;
+	border-radius: 2px;
+}
+
+form input[type='email'], form input[type='password'], form input[type='text']
+{
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border: none;
+	font-size: 18px;
+	width: 100%;
+	padding: 15px;
+  box-sizing: border-box
+}
+
+form input[type='email']
+{
+	border-bottom: 1px #DDD solid;
+}
+form input[type='password']
+{
+	border-bottom: 1px #DDD solid;
+}
+form input[type='text']
+{
+	border-bottom: 1px #DDD solid;
+}
+
+form input[type='submit']
+{
+	padding-top: 90000px;
+	margin: 15px 0px;
+	border: none;
+	font-size: 24px;
+	font-weight: 600;
+	width: 100%;
+
+	background: #529ECC;
+	color: #FFFFFF;
+	padding: 15px;
+
+	border-radius: 2px;
+
+	cursor: pointer;
+
+	transition: background 0.2s;
+}
+
+form input[type='submit']:active
+{
+  color: #DDDDDD;
+	background: #386D8C;
+	transition: background 0.2s;
+}
+
+form p
+{
+	text-align: center;
+}
+
+form p a
+{
+	color: #000000;
+	text-decoration: none;
+	font-size: 18px;
+	text-align: center;
+}
+
+form p a:hover
+{
+	text-decoration: underline;
+}
